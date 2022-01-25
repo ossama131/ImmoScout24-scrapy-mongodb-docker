@@ -14,7 +14,8 @@ MongoDB could be accessed from host system using the following settings:
 
 #### How the spider works
 The spider is a scrapy spider, and works by sending a ```POST``` request to an immoscout24.de endpoint, with the following headers:
- ```headers = {
+ ```
+ headers = {
         'Cookie':'reese84=some_random_string_as_cookie'
         } 
  ```
